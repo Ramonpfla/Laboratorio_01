@@ -1,4 +1,6 @@
 # Laboratorio_01
+UTFPR
+
 ELF52 - Sistemas Microcontrolados
 
 Ramon Percicotti Flauzino RA:1906925
@@ -22,16 +24,16 @@ R5: 0x0000 00aa -> rotação com extensão para a direita;
 
   Na segunda parte trocamos todos os MOV por MVN e os novos valores são:
   
-R0: 0xffff'ffaa;
+R0: 0xffff ffaa;
 
-R1: 0x0055'ffff;
+R1: 0x0055 ffff;
 
-R2: 0xffff'aa00;
+R2: 0xffff aa00;
 
-R3: 0x0000'055f;
+R3: 0x0000 055f;
 
-R4: 0x3fff'fea8;
+R4: 0x3fff fea8;
 
-R5: 0xe000'00ab;
+R5: 0xe000 00ab;
 
   O MVN faz o trabalho de um not, ou seja, ele nega os bits da carga. Como exemplo, o valor hexadecimal do exercício que era de 0055 quando negado apresenta o valor ffaa. Nessa parte do exercício as outras operações continuaram as mesmas.
